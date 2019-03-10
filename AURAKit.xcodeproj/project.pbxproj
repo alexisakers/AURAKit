@@ -42,7 +42,7 @@
 		5502002021D28B5700CE7544 = {
 			isa = PBXGroup;
 			children = (
-				5502002C21D28B5700CE7544 /* AURAKit */,
+				5502002C21D28B5700CE7544 /* Sources */,
 				5502002B21D28B5700CE7544 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5502002C21D28B5700CE7544 /* AURAKit */ = {
+		5502002C21D28B5700CE7544 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				5502002E21D28B5700CE7544 /* Info.plist */,
@@ -63,7 +63,7 @@
 				55A10A142234A19B002B5C03 /* RoundedView */,
 				55A10A132234A193002B5C03 /* Button */,
 			);
-			path = AURAKit;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		55A10A132234A193002B5C03 /* Button */ = {
@@ -318,8 +318,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AURAKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,8 +346,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AURAKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
