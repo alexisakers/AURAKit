@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5502003621D28BA000CE7544 /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502003521D28BA000CE7544 /* UIButton+BackgroundColor.swift */; };
+		55A10A122234A171002B5C03 /* Highlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A10A112234A171002B5C03 /* Highlighter.swift */; };
+		55A10A162234A1BD002B5C03 /* RoundedViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A10A152234A1BD002B5C03 /* RoundedViewProtocol.swift */; };
+		55A10A182234A1F9002B5C03 /* ContinuousMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A10A172234A1F9002B5C03 /* ContinuousMaskLayer.swift */; };
+		55A10A1A2234A263002B5C03 /* UIView+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A10A192234A263002B5C03 /* UIView+Rounded.swift */; };
+		55A10A1C2234A28F002B5C03 /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A10A1B2234A28F002B5C03 /* HighlightButton.swift */; };
+		55A10A1E2234A339002B5C03 /* UIViewPropertyAnimaton+Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A10A1D2234A339002B5C03 /* UIViewPropertyAnimaton+Chain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5502002A21D28B5700CE7544 /* AURAKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AURAKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5502002E21D28B5700CE7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5502003521D28BA000CE7544 /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
+		55A10A112234A171002B5C03 /* Highlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlighter.swift; sourceTree = "<group>"; };
+		55A10A152234A1BD002B5C03 /* RoundedViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViewProtocol.swift; sourceTree = "<group>"; };
+		55A10A172234A1F9002B5C03 /* ContinuousMaskLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousMaskLayer.swift; sourceTree = "<group>"; };
+		55A10A192234A263002B5C03 /* UIView+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Rounded.swift"; sourceTree = "<group>"; };
+		55A10A1B2234A28F002B5C03 /* HighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButton.swift; sourceTree = "<group>"; };
+		55A10A1D2234A339002B5C03 /* UIViewPropertyAnimaton+Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewPropertyAnimaton+Chain.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +59,39 @@
 			isa = PBXGroup;
 			children = (
 				5502002E21D28B5700CE7544 /* Info.plist */,
-				5502003521D28BA000CE7544 /* UIButton+BackgroundColor.swift */,
+				55A10A1F2234A4A0002B5C03 /* Animation */,
+				55A10A142234A19B002B5C03 /* RoundedView */,
+				55A10A132234A193002B5C03 /* Button */,
 			);
 			path = AURAKit;
+			sourceTree = "<group>";
+		};
+		55A10A132234A193002B5C03 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				55A10A112234A171002B5C03 /* Highlighter.swift */,
+				55A10A1B2234A28F002B5C03 /* HighlightButton.swift */,
+				5502003521D28BA000CE7544 /* UIButton+BackgroundColor.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		55A10A142234A19B002B5C03 /* RoundedView */ = {
+			isa = PBXGroup;
+			children = (
+				55A10A152234A1BD002B5C03 /* RoundedViewProtocol.swift */,
+				55A10A172234A1F9002B5C03 /* ContinuousMaskLayer.swift */,
+				55A10A192234A263002B5C03 /* UIView+Rounded.swift */,
+			);
+			path = RoundedView;
+			sourceTree = "<group>";
+		};
+		55A10A1F2234A4A0002B5C03 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				55A10A1D2234A339002B5C03 /* UIViewPropertyAnimaton+Chain.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A10A182234A1F9002B5C03 /* ContinuousMaskLayer.swift in Sources */,
+				55A10A1A2234A263002B5C03 /* UIView+Rounded.swift in Sources */,
+				55A10A1E2234A339002B5C03 /* UIViewPropertyAnimaton+Chain.swift in Sources */,
 				5502003621D28BA000CE7544 /* UIButton+BackgroundColor.swift in Sources */,
+				55A10A162234A1BD002B5C03 /* RoundedViewProtocol.swift in Sources */,
+				55A10A1C2234A28F002B5C03 /* HighlightButton.swift in Sources */,
+				55A10A122234A171002B5C03 /* Highlighter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
